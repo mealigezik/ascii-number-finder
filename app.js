@@ -8,6 +8,6 @@ const a = document.addEventListener(`keydown`,(e) => {
     display2.innerText = `Loading...`;
     setTimeout(() => {
         display2.innerText = e.key.toLocaleUpperCase() + `'s Ascii Code is ` + e.keyCode;
-    }, 750)
+    }, 800)
 });
 
